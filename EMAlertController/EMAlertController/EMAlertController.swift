@@ -71,7 +71,7 @@ open class EMAlertController: UIViewController {
     return label
   }()
   
-  internal var messageTextView: UITextView = {
+  public var messageTextView: UITextView = {
     let textview = UITextView()
     textview.translatesAutoresizingMaskIntoConstraints = false
     textview.font = UIFont.systemFont(ofSize: 14)
